@@ -31,8 +31,8 @@ IF NOT EXIST "User_Java_Args.txt" (
 )
 
 :SERVER_START
-ECHO Don't forget to accept the EULA or it won't boot && ECHO:
-ECHO Add this argument behind the other "-Dfml..." in User_Java_Args.txt to silently migrate your world during startup, a backup will be created: -Dfml.queryResult=confirm
+ECHO Don't forget to accept the EULA or the server won't start && ECHO:
+ECHO Add this argument after the other "-Dfml..." in User_Java_Args.txt to silently migrate your world during startup, a backup will be created: -Dfml.queryResult=confirm
 ECHO:
 
 IF %BAT_TEST% == FALSE (
