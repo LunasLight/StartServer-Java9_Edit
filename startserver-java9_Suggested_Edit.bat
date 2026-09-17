@@ -1,6 +1,6 @@
 @ECHO OFF
 
-REM For testing the Bat aspects of this file (It doesn't load java when true)
+REM For testing the .bat aspects of this file (It doesn't load java when true)
 SET BAT_TEST=FALSE
 
 REM If the server should auto restart. False is how it functions currently, True along with COUNTDOWN_ENABLED=TRUE would mean parity with startserver-java9.sh
