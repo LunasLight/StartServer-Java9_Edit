@@ -13,7 +13,7 @@ REM How long the timer should be for the countdown to start or stop the server.
 SET COUNTDOWN_TIMER=15
 
 REM The path to the java you would like to use surrounded in quotations
-REM !! IMPORTANT !! If you copy paste your java from Prism Launcher's download make sure to change javaw.exe to java.exe
+REM !! IMPORTANT !! If you copy paste your java from Prism Launcher's download make sure to change javaw.exe to java.exe as javaw.exe will not output correctly to the console.
 REM E.G: SET CUSTOM_JAVA="G:/Games/PrismLauncher/java/eclipse_temurin_jre26.0.2+10/bin/java.exe"
 SET CUSTOM_JAVA_VERSION=
 
